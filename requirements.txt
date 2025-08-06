@@ -1,0 +1,61 @@
+# Core Agno Framework
+agno
+
+# LLM Integration
+ollama
+
+# Vector Database
+chromadb
+
+# ML/AI Libraries
+torch==2.7.0
+torchvision==0.22.0
+torchaudio==2.7.0
+transformers==4.36.0
+sentence-transformers
+
+# dots.ocr dependencies
+accelerate>=0.20.0
+vllm
+
+# Document Processing
+unstructured[local-inference]==0.11.6
+pymupdf==1.23.5
+pdfplumber==0.9.0
+python-docx
+pillow==10.1.0
+
+# Hebrew Language Processing
+hebrew-tokenizer==2.3.0
+
+# Scientific Computing
+numpy==1.24.3
+pandas==2.1.4
+
+# Web Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+aiofiles==23.2.1
+python-multipart==0.0.6
+
+# Utilities
+jinja2==3.1.2
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.1.2
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# OCR and Computer Vision
+paddlepaddle==2.5.1
+paddleocr==2.7.3
+opencv-python
+
+# Additional dependencies for Hebrew processing
+detectron2
+arabic-reshaper==3.0.0
+python-bidi==0.4.2
+requests==2.31.0

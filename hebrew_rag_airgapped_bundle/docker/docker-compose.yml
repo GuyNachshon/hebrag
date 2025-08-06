@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  hebrew-rag-agno:
+    build: .
+    ports:
+      - "8000:8000"
+      - "11434:11434"
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./documents:/app/documents
+      - ./logs:/app/logs
+    environment:
+      - AGNO_TELEMETRY=false
+      - OLLAMA_HOST=0.0.0.0:11434
+      - USE_GPU=true
+      - TRANSFORMERS_OFFLINE=1
+      - HF_DATASETS_OFFLINE=1
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+
+volumes:
+  chroma_db:
+  documents:
+  logs:

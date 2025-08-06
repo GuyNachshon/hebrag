@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hebrew_rag_airgapped_bundle/models/transformers/alephbert-base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hebrew_rag_airgapped_bundle/models/transformers/clip-vit-large" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hebrew_rag_airgapped_bundle/models/transformers/heBERT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hebrew_rag_airgapped_bundle/models/transformers/hebrew-gemma-11b" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hebrew_rag_airgapped_bundle/models/transformers/hebrew-mixtral-8x22b" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hebrew_rag_airgapped_bundle/models/transformers/multilingual-miniLM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hebrew_rag_airgapped_bundle/models/transformers/table-transformer-detection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hebrew_rag_airgapped_bundle/models/transformers/table-transformer-structure" vcs="Git" />
+  </component>
+</project>

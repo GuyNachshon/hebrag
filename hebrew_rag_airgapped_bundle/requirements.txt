@@ -1,0 +1,47 @@
+# Core Agno Framework
+agno>=1.0.0
+
+# LLM Integration
+ollama>=0.4.0
+openai>=1.97.0
+jiter
+
+# Vector Database
+chromadb>=0.4.0
+
+# ML/AI Libraries
+torch
+transformers>=4.30.0
+sentence-transformers>=2.3.0
+
+# Document Processing
+unstructured[local-inference]>=0.10.0
+pymupdf>=1.20.0
+pdfplumber>=0.9.0
+python-docx
+pillow>=10.0.0
+
+# Hebrew Language Processing
+hebrew-tokenizer>=2.0.0
+
+# Scientific Computing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+pydantic>=2.0.0
+aiofiles>=23.0.0
+python-multipart>=0.0.6
+
+# Utilities
+jinja2>=3.0.0
+python-jose[cryptography]>=3.0.0
+passlib[bcrypt]>=1.7.0
+bcrypt>=4.0.0
+wheel>=0.40.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

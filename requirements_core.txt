@@ -1,0 +1,44 @@
+# Core Agno Framework
+agno
+
+# LLM Integration
+ollama
+
+# Vector Database
+chromadb
+
+# ML/AI Libraries
+sentence-transformers
+transformers
+torch
+numpy
+pandas
+
+# Document Processing (core)
+pymupdf
+pdfplumber
+python-docx
+pillow
+
+# Hebrew Language Processing
+hebrew-tokenizer
+
+# Web Framework
+fastapi
+uvicorn
+pydantic
+aiofiles
+python-multipart
+
+# Utilities
+jinja2
+python-jose
+passlib
+bcrypt
+
+# Testing
+pytest
+pytest-asyncio
+
+# Basic requirements only
+requests

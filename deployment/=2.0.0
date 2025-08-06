@@ -1,0 +1,4 @@
+Looking in indexes: https://download.pytorch.org/whl/cpu
+Collecting torch
+  File was already downloaded /private/tmp/hebrag-ubuntu-20250806-125244/deployment/wheels/torch-2.2.2-cp39-none-macosx_10_9_x86_64.whl
+  Downloading https://download.pytorch.org/whl/cpu/torch-2.2.2-cp39-none-macosx_10_9_x86_64.whl (151.0 MB)

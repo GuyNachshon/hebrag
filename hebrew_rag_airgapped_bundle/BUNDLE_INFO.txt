@@ -1,0 +1,25 @@
+Hebrew Agentic RAG System - Air-Gapped Bundle
+============================================
+
+Created: $(date)
+Bundle Version: 1.0.0
+Agno Version: 0.2.75
+
+Contents:
+- Complete Python dependencies for offline installation
+- Hebrew language models (BERT, transformers, etc.)
+- Ollama LLM models (download separately)
+- Docker containers for easy deployment
+- Full source code and configuration
+- Deployment and maintenance scripts
+- Comprehensive documentation
+- Test suite
+
+Total Size: ~15-20GB (depending on models)
+
+Quick Start:
+1. ./verify_bundle.sh
+2. ./scripts/deploy.sh
+3. Access http://localhost:8000
+
+For detailed instructions, see documentation/README.md

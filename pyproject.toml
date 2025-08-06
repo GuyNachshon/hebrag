@@ -1,0 +1,11 @@
+[project]
+name = "hebrag"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "agno>=1.7.7",
+    "chromadb>=1.0.15",
+    "ollama>=0.5.2",
+    "sentence-transformers>=5.0.0",
+]
